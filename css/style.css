@@ -1,0 +1,36 @@
+body {
+    margin: 0 auto;
+    font-family: 'Abril Fatface', cursive;
+}
+
+/**** main: white | secondary: black | third: off yellow: #FFE2BC | fourth: darker yellow #FFB556 fifth: blue #4E8FB2****/
+
+/**********************Nav Bar Styles**********************/
+.nav-bar {
+    height: 100px;
+    width:100%;
+    background-color: #ffe2bc; /***soft yellow****/
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    margin-left: 30px;
+}
+
+.nav-list {
+    color: #4e8fb2; /**Blue color**/
+    float: left;
+    margin-top: 67px;
+}
+
+
+.list-item {
+    float: right;
+    padding-right: 15px;
+    list-style-type: none;
+    font-size: 20px;
+}
