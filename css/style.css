@@ -1,36 +1,220 @@
 body {
     margin: 0 auto;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 /**** main: white | secondary: black | third: off yellow: #FFE2BC | fourth: darker yellow #FFB556 fifth: blue #4E8FB2****/
 
 /**********************Nav Bar Styles**********************/
 .nav-bar {
-    height: 100px;
+    height: 125px;
     width:100%;
-    background-color: #ffe2bc; /***soft yellow****/
-    position: fixed;
-    top: 0;
+    position: relative;
     z-index: 1;
 }
 
 .logo {
     height: 100px;
     width: 100px;
+    margin-top: 15px;
     margin-left: 30px;
+    float: left;
 }
 
 .nav-list {
-    color: #4e8fb2; /**Blue color**/
-    float: left;
-    margin-top: 67px;
+    float: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
 .list-item {
-    float: right;
-    padding-right: 15px;
+    float: left;
+    color: black;
+    padding: 14px 16px;
+    font-size: 16px;
     list-style-type: none;
-    font-size: 20px;
 }
+
+.list-item a {
+    text-decoration: none;
+}
+
+.list-item a:visited { 
+    text-decoration: none; color:black;
+}
+
+.list-item a:hover {
+    color: #ECB527;
+}
+
+/****************End of Nav Bar Styles***************/
+
+.hero {
+    background-image: url('../img/sectionimg.jpg');
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /*top: 100px;*/
+}
+
+.hero-box {
+    background-color: white;
+    border: 3px solid; 
+    padding: 14px 16px;
+    height: 100px;
+    width: 600px;
+    position: absolute;
+    top: 250px;
+    left: 30%;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    margin-top: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+}
+/*******************************End of Hero************************/
+
+.container {
+    height: 300px;
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: -140px;
+}
+
+.columns {
+    height: 250px;
+    width: 25%;
+    border: 5px dotted black;
+    float: left;
+    overflow: hidden;
+    padding: 1px 1px;
+    margin-left: 10px;
+}
+
+.col-img {
+    height: 100px;
+    width: 50px;
+    display: block;
+    margin: auto;
+}
+
+
+    
+/***************Enf of Brand Rows************************/
+
+
+.footer {
+    background-color: #ECB527;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer-col {
+    height: 45px;
+    width: 33%;
+    float: left;
+    text-align: center;
+    margin-top: 35px;
+}
+
+button {
+    height: 20px;
+    width: 100px;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+input {
+    height: 20px;
+    width: 200px;
+    margin-top: 5px;
+}
+
+
+.fa-facebook-f {
+    width: 40px;
+    font-size: 2em;
+    color: #3b5998; /**facebook color**/
+    
+}
+
+.fa-instagram {
+    width: 40px;
+    font-size: 2em;
+    color: #3f729b; /**instagram color**/
+}
+
+.fa-twitter {
+    width: 40px;
+    font-size: 2em;
+    color: #1da1f2; /**twitter color**/
+}
+
+
+/*****************End of Footer Styles************************/
+
+
+
+/****************About Me Styles***********************/
+
+.container {
+    height: 425px;
+    width: 100%;
+    margin-top: 23px;
+    margin-bottom: 30px;
+}
+
+.columns {
+    height: 390px;
+    width: 48%;
+    border: 2px dotted black;
+    float: left;
+    overflow: hidden;
+    padding: 1px 1px;
+    margin-left: 10px;
+    
+}
+
+.col-img {
+    height: 215px;
+    width: 339px;
+    display: block;
+    margin: auto;
+}
+
+.barcavid {
+    height: 300px;
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+
+/*************Contact Styles***************/
+
+.contact-container {
+    width: 100%;
+    height: 622px;
+    margin-top: 120px;
+    margin: center;
+}
+
+
+.contact-container iframe {
+    width: 43%;
+    float: left;
+    margin-left: 25px;
+}
+

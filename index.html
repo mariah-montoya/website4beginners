@@ -1,53 +1,76 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137203516-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-137203516-1');
+</script>
+
+<!------------------------------Meta Tags----------------------------->    
 	<meta charset="UTF-8" />
     <meta name="description" content="Mariah Montoya" />
     <meta name="keywords" content="porfolio, about me, contact information" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mariah Montoya</title>
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Chathura" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:600i|Roboto:500i" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="icon" href="img/logo.png" size="32x32" type="image/png" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
 
 <body>
 	<header>
 		<nav class="nav-bar">
-			<img class="logo" src="" alt="Picture of Mariah" />
+			<img class="logo" src="img/logo.png" alt="mm with a yellow circle" />
 			<ul class=nav-list>
-				<li class="list-item">PORTFOLIO</li>
-				<li class="list-item">ABOUT</li>
-				<li class="list-item">CONTACT</li>
+				<li class="list-item"><a href="index.html">PORTFOLIO</a></li>
+				<li class="list-item"><a href="about.html" target="_blank">ABOUT</a></li>
+				<li class="list-item"><a href="contact.html" target="_blank">CONTACT</a></li>
 			</ul>
 		</nav>
 	</header>
 	
 <!---------------------------End of Nav Bar--------------------------------->
 
-	<main>
-		<div>
-			<h1>Hey there, I'm Mariah Montoya. Nice to meet you.</h1> <!---Put name in color--------->
-			<p><!----Insert Description of Self here----></p>
+	<main class= "hero">
+	    <div class= "hero-box">
+			<h1>The Portfolio of Mariah Montoya</h1>
+			<h2>"a designer focused on visual branding"</h2>
 		</div>
 	</main>
 
 
 <!------------------------End of Hero--------------------------------->
 
-	<section>
-		<img src="" alt="" />
-		<p></p>
-	</section>
-	
-<!-----------------------End of Section----------------------------->
+<div class="container">
+    <div class="columns">
+        <img class="col-img" src="img/design1.jpg" alt="describe" />
+        <p>Color Scheme for Kayla Photography</p>
+    </div>
+    <div class="columns">
+        <img class="col-img" src="img/design2.jpg" alt="describe" />
+        <p>Business Cards for Jerico Fire</p>
+    </div>
+    <div class="columns">
+        <img class="col-img" src="img/design3.jpg" alt="describe" />
+        <p>Brand Design for Shampoo Co.</p>
+    </div>
+</div>
 
+
+<!-----------------------End of Section----------------------------->
 
 <!---------------------Start of Footer------------------------------>
 
     <footer class="footer">
         <div class="footer-col">
-            <button>Submit</button>
+            <button>Subscribe</button>
             <input type="text" name="Email" />
         </div>
         <div class="footer-col">
